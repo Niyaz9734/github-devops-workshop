@@ -1,9 +1,16 @@
-git status
-  git status
-  rm testing.py 
+     git status
+     git status
+     rm testing.py 
      git restore testing.py 
      history 
-    git status  git status 
-   git add demo.txt
+     git status  git status 
+     git add demo.txt
      history | head
      history | tail
+     git checkout -b feature/issue-id
+     git fetch origin
+     git rebase origin/main
+     git merge --no-ff feature/issue-id
+     gh secret set AWS_SECRET_ACCESS_KEY --body "your_key"
+     gh run watch
+     
