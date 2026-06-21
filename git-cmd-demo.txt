@@ -1,0 +1,9 @@
+git status
+  git status
+  rm testing.py 
+     git restore testing.py 
+     history 
+    git status  git status 
+   git add demo.txt
+     history | head
+     history | tail
