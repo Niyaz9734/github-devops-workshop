@@ -16,5 +16,8 @@
      git log --oneline --graph --decorate
      gh workflow run <file.yml>
      git fetch origin
-    git rebase origin/main
+     git rebase origin/main
+     git diff branchA..branchB (show the diff of what is in branchA that is not in branchB)
+     git log branchA..branchB (show the commit in baranchA taht are not in branchB)
+     git merge [branch]
      
