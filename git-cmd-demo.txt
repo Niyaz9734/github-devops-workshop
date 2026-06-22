@@ -13,4 +13,7 @@
      git merge --no-ff feature/issue-id
      gh secret set AWS_SECRET_ACCESS_KEY --body "your_key"
      gh run watch
+     rm -rf name_of_your_folder
+     git log --oneline --graph --decorate
+     gh workflow run <file.yml>
      
