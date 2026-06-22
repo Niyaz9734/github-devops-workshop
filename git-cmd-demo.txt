@@ -13,7 +13,18 @@
      git merge --no-ff feature/issue-id
      gh secret set AWS_SECRET_ACCESS_KEY --body "your_key"
      gh run watch
+<<<<<<< HEAD
      rm -rf name_of_your_folder
      git log --oneline --graph --decorate
      gh workflow run <file.yml>
      
+=======
+     git log --oneline --graph --decorate
+     gh workflow run <file.yml>
+     git fetch origin
+     git rebase origin/main
+     git diff branchA..branchB (show the diff of what is in branchA that is not in branchB)
+     git log branchA..branchB (show the commit in baranchA taht are not in branchB)
+     git merge [branch]
+     
+>>>>>>> 77e6daef4a9c3c9b43b8f8b6a638b2ee733370b6
