@@ -26,5 +26,6 @@
      git diff branchA..branchB (show the diff of what is in branchA that is not in branchB)
      git log branchA..branchB (show the commit in baranchA taht are not in branchB)
      git merge [branch]
-     
->>>>>>> 77e6daef4a9c3c9b43b8f8b6a638b2ee733370b6
+
+    this is new change on this code...Thank-you
+
